@@ -1,0 +1,88 @@
+/*
+CSS styling for index, portolio, and html 
+we need to change the position, size, and color.
+*/
+*{
+    box-sizing: border-box;
+}
+
+/*  this styles  apply to all the body */
+body {
+    font-size: 18px;
+    line-height: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    color:black;
+  
+}
+
+.container{
+    width: 980px;
+    
+    margin: 0 auto;
+    clear: both;
+}
+/*this style apply to the header */
+#header{
+    background: #ffffff
+ 
+    
+}
+
+#icon{
+    width: 400px;
+    height: 90px;
+    background: #4aaaa5;
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    line-height: 100px;
+    font-size: 40px;
+    color:white;
+    text-decoration:none;
+    border: 1px solid #dddddd;
+    
+}
+nav{
+    float: right;   
+    
+   
+}
+nav a{
+    line-height: 30px;
+    color:black;
+    text-decoration: none;
+}
+
+
+/* this styles apply to main body */
+
+
+#middleContainer{
+    padding-top: 100px;
+    
+}
+
+h1{
+    color:#4aaaa5;
+    font-size: 40px;
+}
+
+.middleSection{
+   background: #ffffff;
+   padding: 30px;
+   width: 600px;
+   
+   border: 1px solid #dddddd;
+   float: left;
+
+
+}
+footer{
+    background: #666666;
+    color: #ffffff;
+    padding: 30px;
+    clear:both;
+    text-align: center;
+}
+
